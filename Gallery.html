@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width,initial-select=1">
+    <link rel="stylesheet" href="http//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+    <header>
+      <body>
+        <header>
+        </style>
+    </head>
+    <body>
+    <div class="topnav">
+      <strong><a href="index.html">HOME</a></strong>
+      <strong><a href="about.html">ABOUT</a></strong>
+      <strong><a href="contact.html">CONTACT</a></strong>
+      <strong><a href="gallery.html">GALLERY</a></strong>
+      </div>
+      <body>
+      
+      <div style="padding-left:25px">
+      </div>
+      
+    
+    
+          </header>
+          <link rel="stylesheet" href="mystylesheet.css" />
+            </head>
+        <body>
+        </header>
+    </header>
+
+      
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img src="images/FARM.jpg" style="width:100%" height="100%">
+      <b><div class="text">FARM VIEW</div></b>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 7</div>
+        <img src="images/POND.jpg" style="width:100%" height="100%">
+        <b><div class="text">FISH POND</div></b>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 7</div>
+        <img src="images/FISH SORTING.jpg" style="width:100%" height="100%">
+        <b><div class="text">FISH SORTING</div></b>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 7</div>
+        <img src="images/fish scaling.jpg" style="width:100%" height="100%">
+        <b><div class="text">FISH SCALING</div></b>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 7</div>
+        <img src="images/Fish.jpg" style="width:100%" height="100%">
+        <b><div class="text">FISH</div></b>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 7</div>
+        <img src="images/Rhouthy5jpeg.jfif" style="width:100%"height="100%">
+        <b><div class="text">FOATIN FEED AT HAND</div></b>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 7</div>
+        <img src="images/SINKING.jpg" style="width:100%"height="100%">
+        <b><div class="text">SINKING FEED AT HAND</div></b>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+      <span class="dot" onclick="currentSlide(7)"></span> 
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    </div>
+    
+</div>
+</div>
+</div>
+
+<div class="footer">
+            <strong><a href="Usalahdeen@gmail.com">2023 &copy; ALL RIGHTS RESERVED |DESIGNED BY UTHMAN </a></strong>
+        </div>
+  </footer>
+  </html>
+  </div>
+  
+  </body>
+  </html>
+
